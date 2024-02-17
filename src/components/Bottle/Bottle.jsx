@@ -2,7 +2,7 @@ import React from "react";
 import "./Bottle.css";
 
 const Bottle = ({ bottle, handlePerchase }) => {
-  const { category, name, seller, price, img } = bottle;
+  const { name, price, img } = bottle;
   return (
     <div className="bottle">
       <h4>Name : {name}</h4>

@@ -1,16 +1,8 @@
-.bottle_Container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+.bottle_Container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
 }
-.cart_container{
-    position: relative;
-}
-.cart{
-    position: absolute;
-    margin-left: 52%;
-    margin-top: -5%;
-    background-color: red;
-    width: 2%;
-    border-radius: 50%;
+.cart_container {
+  position: relative;
 }
