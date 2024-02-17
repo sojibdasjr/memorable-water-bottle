@@ -34,7 +34,7 @@ const Bottles = () => {
           savedCart.push(bottle);
         }
       }
-      setPurchase(savedCart);
+      setPurchase(savedCart); //
     }
   }, [bottles]);
 
